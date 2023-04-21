@@ -11,20 +11,29 @@ body {
   font-family: "Roboto";
   color: var(--text-font-family);
 }
-.global-header {
-  color: var(--paragraf-color);
+.address a {
+  color: #ffffff;
+}
+.footer-tel-color a {
+  color: var(--text-footer-color);
+}
+
+.global-header a {
+  color: #212121;
 }
 .global-footer {
+  color: #ffffff;
   background: var(--footer-page-background);
 }
 .global-footer a {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
 .footer-text a {
-  color: var(--text-footer-color);
+  color: var(--paragraf-color);
 }
 .nav-links {
   font-weight: 500;
@@ -74,6 +83,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  border: 0;
 }
 h2 {
   font-weight: 700;
@@ -126,6 +136,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .nav-links a:hover,
 .nav-links a:focus,
 .global-footer a:hover,
@@ -137,6 +148,7 @@ p {
   background: #2196f3;
   display: inline-block;
   cursor: pointer;
+  border: 0cm;
 }
 
 .no-underline a {
